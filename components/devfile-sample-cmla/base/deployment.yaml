@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-cmla
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0025-tenant/tkrw-pr712-0075-0025-app/devfile-sample-cmla@sha256:95cd0a987ecc35a1d09f7dfc6517778fa46aae5a3fb8933341b7df292ec13a6d
         name: my-nodejs
         ports:
         - containerPort: 3001
